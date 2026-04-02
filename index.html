@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Laundry Business | Laundry, Dry Cleaning & Linen Services</title>
+  <meta name="description" content="Premium laundry, dry cleaning, ironing, linen service, collection and delivery website layout." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-mark">Fresh • Pressed • Delivered</div>
+  </div>
+
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <div class="site-shell">
+    <header class="site-header" id="siteHeader">
+      <div class="container header-inner">
+        <a href="#home" class="brand">
+          <span class="brand-mark">LC</span>
+          <span class="brand-copy">
+            <strong>Your Laundry Name</strong>
+            <small>Dry Cleaning & Linen Care</small>
+          </span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="site-nav" id="siteNav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#proof">Proof</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact">Contact</a>
+          <button class="nav-cta" data-open-modal>Quick Quote</button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-section" id="home">
+        <div class="hero-bg">
+          <img src="assets/hero-laundry.svg" alt="Laundry hero placeholder" />
+        </div>
+        <div class="hero-glow hero-glow-1"></div>
+        <div class="hero-glow hero-glow-2"></div>
+
+        <div class="container hero-grid">
+          <div class="hero-copy reveal reveal-left">
+            <span class="eyebrow">Laundry • Dry Cleaning • Ironing • Linen Service</span>
+            <h1>Clean presentation, premium care, and a website layout built to convert.</h1>
+            <p>
+              This layout is built so you can later swap in your real logo, price list, service areas,
+              photos, reviews, collection rules, and commercial account details. It follows the checklist
+              structure for a laundry, dry cleaning, and linen service website.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#contact" class="btn btn-primary">Book a Collection</a>
+              <a href="#services" class="btn btn-secondary">View Services</a>
+            </div>
+
+            <div class="hero-badges">
+              <span>Pickup & Delivery</span>
+              <span>Household & Commercial</span>
+              <span>Express Options</span>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal reveal-right">
+            <div class="floating-card floating-card-main">
+              <div class="floating-card-head">
+                <span class="pill">Featured Services</span>
+                <span class="dot-cluster"><i></i><i></i><i></i></span>
+              </div>
+              <div class="service-mini-list">
+                <article>
+                  <strong>Everyday Laundry</strong>
+                  <span>Wash, fold, package, return</span>
+                </article>
+                <article>
+                  <strong>Dry Cleaning</strong>
+                  <span>Delicate garments and premium care</span>
+                </article>
+                <article>
+                  <strong>Commercial Linen</strong>
+                  <span>Hotels, spas, salons, restaurants</span>
+                </article>
+              </div>
+            </div>
+
+            <div class="floating-card floating-card-stats">
+              <div class="stat-card">
+                <strong class="counter" data-target="24">0</strong>
+                <span>Hour turnaround placeholder</span>
+              </div>
+              <div class="stat-card">
+                <strong class="counter" data-target="6">0</strong>
+                <span>Main service categories</span>
+              </div>
+            </div>
+
+            <div class="floating-card floating-card-note">
+              <p>
+                Add your same-day rules, minimum orders, stain treatment notes,
+                and collection zones here later.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="marquee-wrap">
+          <div class="marquee-track">
+            <span>Wash & Fold</span>
+            <span>Dry Cleaning</span>
+            <span>Ironing & Pressing</span>
+            <span>Household Items</span>
+            <span>Commercial Laundry</span>
+            <span>Pickup & Delivery</span>
+            <span>Express Service</span>
+            <span>Stain Treatment</span>
+            <span>Wash & Fold</span>
+            <span>Dry Cleaning</span>
+            <span>Ironing & Pressing</span>
+            <span>Household Items</span>
+            <span>Commercial Laundry</span>
+            <span>Pickup & Delivery</span>
+            <span>Express Service</span>
+            <span>Stain Treatment</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-strip">
+        <div class="container contact-strip-grid">
+          <article class="mini-panel reveal reveal-up">
+            <span class="mini-label">Phone / WhatsApp</span>
+            <strong>+27 00 000 0000</strong>
+          </article>
+          <article class="mini-panel reveal reveal-up" style="--delay:.08s;">
+            <span class="mini-label">Service Area</span>
+            <strong>Your city, suburbs, collection zones</strong>
+          </article>
+          <article class="mini-panel reveal reveal-up" style="--delay:.16s;">
+            <span class="mini-label">Opening Hours</span>
+            <strong>Mon - Sat | 07:00 - 18:00</strong>
+          </article>
+          <article class="mini-panel reveal reveal-up" style="--delay:.24s;">
+            <span class="mini-label">Booking Method</span>
+            <strong>WhatsApp, phone, form, account setup</strong>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container section-grid two-col">
+          <div class="section-copy reveal reveal-left">
+            <span class="eyebrow">About the business</span>
+            <h2>Use this section for your story, promise, standards, and trust factor.</h2>
+            <p>
+              The checklist asks for a short brand introduction, a fuller About Us section, team details,
+              hygiene standards or certifications, opening hours, locations, service areas, Google Maps
+              location, and special selling points. This layout gives you space for all of that.
+            </p>
+            <p>
+              Replace this text with your real background: when you started, what you specialise in,
+              your service values, how items are handled, and why clients should trust you with everyday
+              garments, delicate fabrics, or bulk linen.
+            </p>
+
+            <div class="bullet-grid">
+              <div>
+                <h3>What to place here</h3>
+                <ul>
+                  <li>2 to 4 line brand introduction</li>
+                  <li>Your full About Us paragraph</li>
+                  <li>Team names, roles, and photos</li>
+                  <li>Hygiene standards and certifications</li>
+                </ul>
+              </div>
+              <div>
+                <h3>Strong selling points</h3>
+                <ul>
+                  <li>Same-day or next-day turnaround</li>
+                  <li>Delicate garment care</li>
+                  <li>Pickup and delivery zones</li>
+                  <li>Commercial laundry support</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="media-stack reveal reveal-right">
+            <img src="assets/about-facility.svg" alt="Laundry facility placeholder" class="stack-main"/>
+            <div class="stack-card">
+              <strong>Hygiene & Quality Checks</strong>
+              <p>Add your compliance notes, fabric care standards, and process details here.</p>
+            </div>
+            <div class="stack-card offset">
+              <strong>Team & Service Areas</strong>
+              <p>Feature staff bios, service zones, Google Maps details, and your contact channels.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section dark-section" id="services">
+        <div class="container">
+          <div class="section-heading center reveal reveal-up">
+            <span class="eyebrow">Service categories</span>
+            <h2>Structured around the suggested laundry website sections.</h2>
+            <p>
+              The checklist suggests grouping the website into everyday laundry, dry cleaning,
+              ironing, household items, commercial laundry, and collection or express services.
+            </p>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-card reveal reveal-up">
+              <img src="assets/service-washfold.svg" alt="Everyday laundry placeholder" />
+              <div class="service-card-body">
+                <h3>Everyday Laundry & Wash-and-Fold</h3>
+                <p>Clothing laundry, everyday washing, folding, and packaged returns.</p>
+                <div class="service-meta">
+                  <span>Per kg / per bag</span>
+                  <span>Turnaround</span>
+                  <span>Packaging</span>
+                </div>
+                <button class="service-toggle">View detail layout</button>
+                <div class="service-detail">
+                  <ul>
+                    <li><strong>Short description:</strong> Explain what is included and who the service is for.</li>
+                    <li><strong>Longer explanation:</strong> Add process, benefits, and expected turnaround.</li>
+                    <li><strong>Price structure:</strong> Insert your actual per kg, per bag, or per load pricing.</li>
+                    <li><strong>Minimum order:</strong> Add any collection or booking minimums.</li>
+                    <li><strong>Packaging:</strong> Folded, bagged, boxed, or client-requested separation.</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <article class="service-card reveal reveal-up" style="--delay:.06s;">
+              <img src="assets/service-dryclean.svg" alt="Dry cleaning placeholder" />
+              <div class="service-card-body">
+                <h3>Dry Cleaning & Delicate Garments</h3>
+                <p>Suits, dresses, jackets, special fabrics, and care-label sensitive items.</p>
+                <div class="service-meta">
+                  <span>Per item</span>
+                  <span>Care labels</span>
+                  <span>Delicate care</span>
+                </div>
+                <button class="service-toggle">View detail layout</button>
+                <div class="service-detail">
+                  <ul>
+                    <li><strong>Fabric notes:</strong> Mention silk, wool, embellished garments, and care-label handling.</li>
+                    <li><strong>Disclaimers:</strong> Add your stain-removal and fabric-risk wording.</li>
+                    <li><strong>Pricing:</strong> Insert per-item prices for suits, dresses, jackets, and special items.</li>
+                    <li><strong>Turnaround:</strong> Clarify standard and express timelines.</li>
+                    <li><strong>Photos:</strong> Add clean before-and-after or garment care imagery.</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <article class="service-card reveal reveal-up" style="--delay:.12s;">
+              <img src="assets/service-ironing.svg" alt="Ironing placeholder" />
+              <div class="service-card-body">
+                <h3>Ironing & Pressing</h3>
+                <p>Ironing only, shirt pressing, formal wear finishing, and garment steaming.</p>
+                <div class="service-meta">
+                  <span>Press-only</span>
+                  <span>Garment count</span>
+                  <span>Premium finish</span>
+                </div>
+                <button class="service-toggle">View detail layout</button>
+                <div class="service-detail">
+                  <ul>
+                    <li><strong>Service scope:</strong> Shirts, dresses, uniforms, and formal garments.</li>
+                    <li><strong>Pricing format:</strong> Use per item or bundle pricing.</li>
+                    <li><strong>Packaging:</strong> Hung, folded, or hanger return options.</li>
+                    <li><strong>Add-ons:</strong> Include steaming or premium finishing.</li>
+                    <li><strong>FAQ:</strong> Can customers send washed clothes for ironing only?</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <article class="service-card reveal reveal-up" style="--delay:.18s;">
+              <img src="assets/service-household.svg" alt="Household cleaning placeholder" />
+              <div class="service-card-body">
+                <h3>Household Items</h3>
+                <p>Duvets, blankets, comforters, curtains, rugs, and pillow cleaning.</p>
+                <div class="service-meta">
+                  <span>Bulky items</span>
+                  <span>By item</span>
+                  <span>Special handling</span>
+                </div>
+                <button class="service-toggle">View detail layout</button>
+                <div class="service-detail">
+                  <ul>
+                    <li><strong>Item list:</strong> Show exactly what household items you accept.</li>
+                    <li><strong>Turnaround:</strong> Clarify standard times for large or seasonal items.</li>
+                    <li><strong>Care notes:</strong> Add padding, filling, curtain length, or fabric warnings.</li>
+                    <li><strong>Pricing:</strong> Insert item-based rates.</li>
+                    <li><strong>Collection:</strong> Mention minimums for pickup if relevant.</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <article class="service-card reveal reveal-up" style="--delay:.24s;">
+              <img src="assets/service-commercial.svg" alt="Commercial laundry placeholder" />
+              <div class="service-card-body">
+                <h3>Commercial Laundry</h3>
+                <p>Guesthouse linen, spa towels, restaurant linen, salon towels, and uniforms.</p>
+                <div class="service-meta">
+                  <span>Contract pricing</span>
+                  <span>Recurring pickups</span>
+                  <span>Account terms</span>
+                </div>
+                <button class="service-toggle">View detail layout</button>
+                <div class="service-detail">
+                  <ul>
+                    <li><strong>Commercial sectors:</strong> Hotels, B&Bs, spas, gyms, salons, restaurants.</li>
+                    <li><strong>Bulk pricing:</strong> Add contract or repeat-client rates.</li>
+                    <li><strong>Schedules:</strong> Daily, weekly, or custom pickup routes.</li>
+                    <li><strong>Invoice terms:</strong> Monthly account and payment conditions.</li>
+                    <li><strong>Proof:</strong> Use commercial linen photos and business testimonials.</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <article class="service-card reveal reveal-up" style="--delay:.30s;">
+              <img src="assets/service-delivery.svg" alt="Collection and delivery placeholder" />
+              <div class="service-card-body">
+                <h3>Collection, Delivery & Express Service</h3>
+                <p>Door-to-door collection, route delivery, same-day service, and priority handling.</p>
+                <div class="service-meta">
+                  <span>Service zones</span>
+                  <span>Cut-off times</span>
+                  <span>Rush rules</span>
+                </div>
+                <button class="service-toggle">View detail layout</button>
+                <div class="service-detail">
+                  <ul>
+                    <li><strong>Booking method:</strong> WhatsApp, phone, website form, or account request.</li>
+                    <li><strong>Delivery fees:</strong> Add area-based fees or free thresholds.</li>
+                    <li><strong>Cut-offs:</strong> Clarify same-day and next-day deadlines.</li>
+                    <li><strong>Failed delivery:</strong> Add late change and rescheduling rules.</li>
+                    <li><strong>CTA buttons:</strong> Book a Collection, WhatsApp Us, Call Now, Get a Quote.</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="process">
+        <div class="container">
+          <div class="section-heading reveal reveal-up">
+            <span class="eyebrow">Service flow</span>
+            <h2>Guide clients clearly from interest to action.</h2>
+          </div>
+
+          <div class="process-grid">
+            <article class="process-card reveal reveal-left">
+              <span>01</span>
+              <h3>Choose a service</h3>
+              <p>Let visitors pick wash-and-fold, dry cleaning, ironing, household items, or commercial linen.</p>
+            </article>
+            <article class="process-card reveal reveal-up" style="--delay:.08s;">
+              <span>02</span>
+              <h3>Book collection or drop-off</h3>
+              <p>Add WhatsApp booking, call buttons, a contact form, or account request options.</p>
+            </article>
+            <article class="process-card reveal reveal-up" style="--delay:.16s;">
+              <span>03</span>
+              <h3>Clean, press, package</h3>
+              <p>Use this section to explain your turnaround, packaging method, and quality checks.</p>
+            </article>
+            <article class="process-card reveal reveal-right" style="--delay:.24s;">
+              <span>04</span>
+              <h3>Return or deliver</h3>
+              <p>Confirm collection zones, delivery windows, express rules, and final handover details.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section dark-section" id="pricing">
+        <div class="container">
+          <div class="section-heading center reveal reveal-up">
+            <span class="eyebrow">Pricing, policies, and buttons</span>
+            <h2>Everything the checklist says clients need before launch.</h2>
+          </div>
+
+          <div class="tabs reveal reveal-up">
+            <div class="tab-buttons">
+              <button class="tab-button active" data-tab="tab-pricing">Pricing structure</button>
+              <button class="tab-button" data-tab="tab-delivery">Collection & delivery</button>
+              <button class="tab-button" data-tab="tab-policies">Policies & disclaimers</button>
+            </div>
+
+            <div class="tab-panel active" id="tab-pricing">
+              <div class="tab-grid">
+                <article class="glass-card">
+                  <h3>Household Pricing</h3>
+                  <ul>
+                    <li>Per kilogram pricing</li>
+                    <li>Per bag / per load options</li>
+                    <li>Per item pricing for ironing</li>
+                    <li>Duvet and blanket rates</li>
+                  </ul>
+                </article>
+                <article class="glass-card">
+                  <h3>Commercial Pricing</h3>
+                  <ul>
+                    <li>Bulk or contract pricing</li>
+                    <li>Monthly account rates</li>
+                    <li>Recurring collection schedules</li>
+                    <li>High-volume client notes</li>
+                  </ul>
+                </article>
+                <article class="glass-card">
+                  <h3>Add-ons</h3>
+                  <ul>
+                    <li>Stain treatment</li>
+                    <li>Ironing-only</li>
+                    <li>Garment steaming</li>
+                    <li>Special detergent preferences</li>
+                  </ul>
+                </article>
+              </div>
+            </div>
+
+            <div class="tab-panel" id="tab-delivery">
+              <div class="tab-grid">
+                <article class="glass-card">
+                  <h3>Zones & Fees</h3>
+                  <ul>
+                    <li>Service areas and suburbs</li>
+                    <li>Free delivery thresholds</li>
+                    <li>Route-based collection days</li>
+                    <li>Commercial pickup coverage</li>
+                  </ul>
+                </article>
+                <article class="glass-card">
+                  <h3>Cut-off Times</h3>
+                  <ul>
+                    <li>Same-day order deadlines</li>
+                    <li>Next-day collection rules</li>
+                    <li>Priority service timing</li>
+                    <li>Weekend availability notes</li>
+                  </ul>
+                </article>
+                <article class="glass-card">
+                  <h3>Buttons to use</h3>
+                  <div class="button-shelf">
+                    <span>Book a Collection</span>
+                    <span>WhatsApp Us</span>
+                    <span>Call Now</span>
+                    <span>Get a Quote</span>
+                    <span>Open a Business Account</span>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="tab-panel" id="tab-policies">
+              <div class="tab-grid">
+                <article class="glass-card">
+                  <h3>Care Policies</h3>
+                  <ul>
+                    <li>Stain removal attempted, not guaranteed</li>
+                    <li>Care-label exceptions</li>
+                    <li>Fabric-risk and colour bleed wording</li>
+                    <li>Lost or damaged item policy</li>
+                  </ul>
+                </article>
+                <article class="glass-card">
+                  <h3>Booking Rules</h3>
+                  <ul>
+                    <li>Minimum order requirements</li>
+                    <li>Cancellation or missed collection policy</li>
+                    <li>Express surcharge rules</li>
+                    <li>Storage or uncollected item periods</li>
+                  </ul>
+                </article>
+                <article class="glass-card">
+                  <h3>Payments</h3>
+                  <ul>
+                    <li>Cash, card, EFT</li>
+                    <li>Monthly invoice accounts</li>
+                    <li>Online payment links</li>
+                    <li>Commercial payment terms</li>
+                  </ul>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="packages">
+        <div class="container section-grid two-col reversed">
+          <div class="media-stack reveal reveal-left">
+            <img src="assets/packages.svg" alt="Commercial and package placeholder" class="stack-main"/>
+            <div class="stack-card">
+              <strong>Household bundles</strong>
+              <p>Use weekly plans, family packages, monthly subscriptions, or combo offers.</p>
+            </div>
+            <div class="stack-card offset">
+              <strong>Commercial accounts</strong>
+              <p>Highlight recurring collections, contract pricing, invoice terms, and route schedules.</p>
+            </div>
+          </div>
+
+          <div class="section-copy reveal reveal-right">
+            <span class="eyebrow">Packages & add-ons</span>
+            <h2>Space for subscriptions, commercial accounts, and premium extras.</h2>
+            <p>
+              The checklist includes household bundles, commercial account details, recurring collection
+              schedules, bulk pricing, add-on services, detergent preferences, and invoice terms.
+            </p>
+
+            <div class="package-grid">
+              <article>
+                <h3>Household Plans</h3>
+                <p>Weekly wash-and-fold packages, family bundles, or monthly prepaid plans.</p>
+              </article>
+              <article>
+                <h3>Business Accounts</h3>
+                <p>Guesthouses, B&Bs, restaurants, salons, spas, gyms, and uniform contracts.</p>
+              </article>
+              <article>
+                <h3>Add-on Services</h3>
+                <p>Stain treatment, ironing-only, hanger returns, premium folding, steaming.</p>
+              </article>
+              <article>
+                <h3>Preference Notes</h3>
+                <p>Fragrance-free options, softener preferences, item separation, special handling.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section dark-section" id="proof">
+        <div class="container">
+          <div class="section-heading center reveal reveal-up">
+            <span class="eyebrow">Photos, reviews, and proof</span>
+            <h2>Build trust with real visuals and client feedback.</h2>
+            <p>
+              The checklist asks for facility photos, work photos, commercial job images, collection and delivery photos,
+              team photos, brand photos, testimonials, and certificates or awards.
+            </p>
+          </div>
+
+          <div class="gallery-grid">
+            <button class="gallery-item reveal reveal-up" data-lightbox="assets/gallery-1.svg">
+              <img src="assets/gallery-1.svg" alt="Laundry facility placeholder" />
+              <span>Facility / workspace</span>
+            </button>
+            <button class="gallery-item reveal reveal-up" data-lightbox="assets/gallery-2.svg" style="--delay:.05s;">
+              <img src="assets/gallery-2.svg" alt="Folded laundry placeholder" />
+              <span>Folded laundry</span>
+            </button>
+            <button class="gallery-item reveal reveal-up" data-lightbox="assets/gallery-3.svg" style="--delay:.10s;">
+              <img src="assets/gallery-3.svg" alt="Pressed garments placeholder" />
+              <span>Pressed garments</span>
+            </button>
+            <button class="gallery-item reveal reveal-up" data-lightbox="assets/gallery-4.svg" style="--delay:.15s;">
+              <img src="assets/gallery-4.svg" alt="Commercial linen placeholder" />
+              <span>Commercial linen</span>
+            </button>
+            <button class="gallery-item reveal reveal-up" data-lightbox="assets/gallery-5.svg" style="--delay:.20s;">
+              <img src="assets/gallery-5.svg" alt="Delivery placeholder" />
+              <span>Collection & delivery</span>
+            </button>
+            <button class="gallery-item reveal reveal-up" data-lightbox="assets/gallery-6.svg" style="--delay:.25s;">
+              <img src="assets/gallery-6.svg" alt="Brand packaging placeholder" />
+              <span>Brand / packaging</span>
+            </button>
+          </div>
+
+          <div class="proof-grid">
+            <article class="proof-card reveal reveal-left">
+              <h3>Testimonials</h3>
+              <div class="testimonial-slider" id="testimonialSlider">
+                <div class="testimonial-track">
+                  <blockquote class="testimonial">
+                    <p>“Replace this with a real Google or WhatsApp review screenshot or written quote.”</p>
+                    <footer>Happy Household Client</footer>
+                  </blockquote>
+                  <blockquote class="testimonial">
+                    <p>“Use this slider for commercial feedback from guesthouses, spas, salons, or restaurants.”</p>
+                    <footer>Commercial Account Client</footer>
+                  </blockquote>
+                  <blockquote class="testimonial">
+                    <p>“Strong reviews instantly add trust, especially when paired with work photos.”</p>
+                    <footer>Returning Customer</footer>
+                  </blockquote>
+                </div>
+              </div>
+            </article>
+
+            <article class="proof-card reveal reveal-right">
+              <h3>Trust builders</h3>
+              <ul class="trust-list">
+                <li>Certificates, awards, or compliance visuals</li>
+                <li>Before-and-after style work photography</li>
+                <li>Team headshots or working photos</li>
+                <li>Branded vehicle, tags, counters, uniforms</li>
+                <li>Top client questions turned into FAQ content</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="faq">
+        <div class="container section-heading reveal reveal-up">
+          <span class="eyebrow">FAQ section</span>
+          <h2>Use your most common client questions here.</h2>
+        </div>
+
+        <div class="container faq-list">
+          <article class="faq-item reveal reveal-up">
+            <button class="faq-question">How long does a standard laundry order take?</button>
+            <div class="faq-answer">
+              <p>Replace this with your real turnaround time for standard orders, including same-day or next-day options if offered.</p>
+            </div>
+          </article>
+          <article class="faq-item reveal reveal-up" style="--delay:.05s;">
+            <button class="faq-question">Do you handle stains and delicate garments?</button>
+            <div class="faq-answer">
+              <p>Use this answer to explain stain treatment attempts, delicate fabric handling, and your care-label disclaimer.</p>
+            </div>
+          </article>
+          <article class="faq-item reveal reveal-up" style="--delay:.10s;">
+            <button class="faq-question">Do you offer collection and delivery?</button>
+            <div class="faq-answer">
+              <p>List service zones, any delivery fees, minimum orders, and preferred booking methods.</p>
+            </div>
+          </article>
+          <article class="faq-item reveal reveal-up" style="--delay:.15s;">
+            <button class="faq-question">Can businesses open a commercial laundry account?</button>
+            <div class="faq-answer">
+              <p>Add your commercial industries served, recurring schedule options, bulk pricing notes, and invoice terms.</p>
+            </div>
+          </article>
+          <article class="faq-item reveal reveal-up" style="--delay:.20s;">
+            <button class="faq-question">How are completed items returned?</button>
+            <div class="faq-answer">
+              <p>Explain whether items are folded, hung, bagged, boxed, or sorted by request.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section cta-section">
+        <div class="container cta-panel reveal reveal-up">
+          <div>
+            <span class="eyebrow">Ready to customise</span>
+            <h2>You can now swap in your real logo, photos, services, pricing, and contact details.</h2>
+          </div>
+          <button class="btn btn-primary" data-open-modal>Open Quick Quote Popup</button>
+        </div>
+      </section>
+
+      <section class="section dark-section" id="contact">
+        <div class="container section-grid two-col">
+          <div class="section-copy reveal reveal-left">
+            <span class="eyebrow">Contact / collection request</span>
+            <h2>Use this area for your main contact buttons and form.</h2>
+            <p>
+              The checklist includes main contact details, social media links, booking method, contact buttons,
+              forms, disclaimers, final approval, and correct pricing and service wording checks.
+            </p>
+
+            <div class="contact-card-grid">
+              <article class="contact-card">
+                <span>Call</span>
+                <strong>+27 00 000 0000</strong>
+              </article>
+              <article class="contact-card">
+                <span>Email</span>
+                <strong>hello@yourlaundry.co.za</strong>
+              </article>
+              <article class="contact-card">
+                <span>Address</span>
+                <strong>Your shop / depot / area</strong>
+              </article>
+              <article class="contact-card">
+                <span>Socials</span>
+                <strong>Instagram / Facebook / Google</strong>
+              </article>
+            </div>
+
+            <div class="policy-note">
+              <strong>Important:</strong>
+              Add your lost or damaged item wording, stain treatment disclaimer, late change policy,
+              and permission to use photos and reviews in the final version.
+            </div>
+          </div>
+
+          <form class="contact-form reveal reveal-right" id="contactForm">
+            <h3>Collection Request Form Layout</h3>
+            <div class="form-grid">
+              <label>
+                Full Name
+                <input type="text" name="name" placeholder="Client name" required>
+              </label>
+              <label>
+                Phone / WhatsApp
+                <input type="tel" name="phone" placeholder="+27..." required>
+              </label>
+              <label>
+                Email
+                <input type="email" name="email" placeholder="email@example.com">
+              </label>
+              <label>
+                Service Type
+                <select name="service">
+                  <option>Wash-and-fold</option>
+                  <option>Dry cleaning</option>
+                  <option>Ironing & pressing</option>
+                  <option>Household items</option>
+                  <option>Commercial laundry</option>
+                  <option>Collection & delivery</option>
+                </select>
+              </label>
+              <label>
+                Collection Area
+                <input type="text" name="area" placeholder="Suburb / zone">
+              </label>
+              <label>
+                Preferred Date
+                <input type="date" name="date">
+              </label>
+              <label class="full">
+                Notes
+                <textarea name="notes" rows="5" placeholder="Add garments, linen type, minimums, special care notes, or business account request."></textarea>
+              </label>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">Submit Layout Demo</button>
+              <button type="button" class="btn btn-secondary" data-open-modal>Quick Quote</button>
+            </div>
+            <small class="form-help">This demo form uses a popup confirmation only. Later you can connect it to Formspree, Netlify Forms, WhatsApp, email, or your backend.</small>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Your Laundry Name</h3>
+          <p>Premium laundry, dry cleaning, ironing, commercial linen, and collection service.</p>
+        </div>
+        <div>
+          <h4>Useful sections</h4>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#faq">FAQ</a>
+        </div>
+        <div>
+          <h4>Replace later</h4>
+          <a href="#">Logo files</a>
+          <a href="#">Price list</a>
+          <a href="#">Reviews</a>
+          <a href="#">Policies</a>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>+27 00 000 0000</p>
+          <p>hello@yourlaundry.co.za</p>
+          <p>Your address / service area</p>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>&copy; <span id="year"></span> Your Laundry Name. Website layout by KRUGER CODED.</p>
+        <a href="#home" class="back-top">Back to top</a>
+      </div>
+    </footer>
+  </div>
+
+  <button class="floating-quote-btn" data-open-modal aria-label="Open quick quote popup">
+    <span>Quick Quote</span>
+  </button>
+
+  <div class="toast" id="quoteToast">
+    <p>Need a fast booking popup? Tap Quick Quote.</p>
+    <button type="button" id="toastClose" aria-label="Close">×</button>
+  </div>
+
+  <div class="modal" id="quoteModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel">
+      <button class="modal-close" data-close-modal aria-label="Close quick quote popup">×</button>
+      <span class="eyebrow">Quick quote popup</span>
+      <h3>Request a fast quote</h3>
+      <form class="modal-form" id="modalForm">
+        <label>
+          Your name
+          <input type="text" placeholder="Full name" required>
+        </label>
+        <label>
+          Phone / WhatsApp
+          <input type="tel" placeholder="+27..." required>
+        </label>
+        <label>
+          What do you need cleaned?
+          <textarea rows="4" placeholder="Laundry, dry cleaning, ironing, linen, household items, or commercial account request."></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary">Send enquiry</button>
+      </form>
+      <small>This popup is for layout/demo purposes. Later you can connect it to WhatsApp or email.</small>
+    </div>
+  </div>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox-backdrop" data-close-lightbox></div>
+    <div class="lightbox-panel">
+      <button class="lightbox-close" data-close-lightbox aria-label="Close image">×</button>
+      <img src="" alt="Expanded gallery image" id="lightboxImage">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
